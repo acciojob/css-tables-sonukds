@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+/* Styling for table cells */
+td, th {
+  border: 1px solid #ccc;      /* Border for table cells */
+  border-radius: 5px;          /* Rounded corners for table cells */
+  padding: 0.5rem;             /* Padding inside table cells */
+}
+
+/* Styling for odd rows */
+tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;   /* Background color for odd rows */
+}
+
+/* Styling for even rows */
+tbody tr:nth-child(even) {
+  background-color: #ffffff;   /* Background color for even rows */
+}
